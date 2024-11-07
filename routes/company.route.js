@@ -8,5 +8,5 @@ router.route("/register").post(isAuthenticated,registerCompany);
 router.route("/get").get(isAuthenticated,getComapny);
 router.route("/get/:id").get(isAuthenticated,getComapnyById)
 router.route("/update/:id").put(isAuthenticated,updateCompany)
-export default router;
+export default companyRoute;
 
